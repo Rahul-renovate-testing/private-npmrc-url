@@ -1,3 +1,4 @@
 {
-  "npmrc": "@swimmio:registry=https://npm.pkg.github.com/\n//npm.pkg.github.com/:_authToken=${NPM_TOKEN}"
+  "npmrc": "@swimmio:registry=https://npm.pkg.github.com/\n//npm.pkg.github.com/:_authToken=${NPM_TOKEN}",
+  "npmToken": "{{ secrets.GITHUB_COM_TOKEN }}"
 }
